@@ -1,0 +1,36 @@
+body{
+	background-color: #D3D3D3;
+}
+
+header, footer{
+	background-color: #272822;
+}
+
+form, .imgwrapper, .menu-nav, .about, .event{
+	background-color: #DDD;
+}
+
+.daftar, .wrapper, .message, .image-item {
+	background-color: #FFF
+}
+
+
+footer, .button {
+	color: #FFF;
+}	
+
+.button {
+	background-color: #A90000; 
+}
+
+.menu-nav a{
+	color: #A90000; 
+}
+
+a{
+	color: #FFF;
+}
+
+.label-container{
+	background-color: red;
+}

@@ -1,0 +1,78 @@
+/*style for index nextgigs.com C FADLYSETIAWAN 2014*/
+body{
+	background-image: url(../image/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+}
+
+header{
+	padding: 20px;
+	color: #FFF;
+}
+
+h1,h2{
+	margin: 1px;
+	text-align: center;
+}
+
+.layout{
+	width: 300px;
+	height: 450px;
+	position: relative;
+	float: right;
+	right: 50px;
+	border-radius: 10px;
+	background-color: #0F100D;
+	opacity: 0.6;
+	z-index: -999;
+}
+
+form{
+	float: right;
+	position: relative;
+	left: 250px;
+}
+
+.input-container{
+	margin: 25px;
+	width: 250px;
+	height: 200px;
+
+}
+
+.input-text{
+	padding: 5px;
+	margin-top: 30px; 
+	margin-bottom: 20px;
+	border-radius: 5px;
+	color: #A90000;
+	border-style: none;
+}
+
+
+.login-button{
+	margin-bottom: 15px;
+	border-style: none;
+	border-radius: 10px;
+	padding: 10px 50px;
+	background-color: #A90000;
+	color: #FFF;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+}
+
+p{
+	color: #FFF;
+}
+a{
+	text-decoration: none;
+	color: #A90000;
+}
+
+footer{
+	color: #FFF;
+	text-align: center;
+	padding-top: 50px;
+	clear: both;
+}

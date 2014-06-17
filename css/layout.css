@@ -1,0 +1,46 @@
+
+.event, .message, .menu-nav, .profile, .profile-pic, .about p {
+	margin: 10px;
+}
+
+.wrapper, .daftar, .message, .profile-pic {
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.event {	
+	height: 200px;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.event img{
+	margin: 10px;
+}
+
+.example-image{
+	height: 200px;
+	width: 280px;	
+	
+}
+
+.profile-pic {
+	width: 130px;
+}
+
+.profile h3 + .about p{
+	margin: 0;
+	padding: 0;
+}
+
+.about p{
+	text-indent: 20px;
+	text-align: center;	
+}
+
+.about{
+	border-radius: 3px;
+}
+
+.button{
+	padding: 5px;
+}

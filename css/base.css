@@ -1,0 +1,44 @@
+@import url('960_12_col.css');
+@import url('color.css');
+@import url('layout.css');
+@import url('form.css');
+
+header img, nav{
+	float: left;
+
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+header{	
+	margin: 20px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px #000;
+}
+
+nav ul li{
+	margin-left: 20px;
+	list-style: none;
+	display: inline-table;	
+}
+
+
+nav li a{
+	text-decoration: none;
+}
+
+
+footer{
+	margin: 10px;
+	text-align: center;
+	clear: both;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px #000;
+}
+
+a:hover{
+	color: #A90000;
+}
+

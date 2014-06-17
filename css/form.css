@@ -1,0 +1,28 @@
+form{
+	margin: 10px;
+	padding: 20px;
+	padding-left: 100px;
+}
+
+label {
+	display: block;
+	float: left;
+	width: 200px;
+}
+
+input{
+	width: 250px;
+}
+
+textarea{
+	width: 250px;
+	height: 100px;
+}
+
+.imgwrapper {
+	margin-top: 10px;
+}
+
+.imgwrapper img {
+	margin: 10px;
+}
