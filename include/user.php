@@ -19,7 +19,7 @@ function newUser()
 function createUser()
 {
 	$sql = 'INSERT INTO user(nama_depan, nama_belakang, email, password, tgl_lahir)
-			VALUES(:namadepan, :namabelakang, :email, :password, :lahir)';
+					VALUES(:namadepan, :namabelakang, :email, :password, :lahir)';
 
 	$user = connect()->prepare($sql);
 
@@ -48,9 +48,9 @@ function profile()
 function updateUser($id)
 {
 
-	$sql = "UPDATE user SET(nama_depan, nama_belakang, email, password, tgl_lahir)
-			VALUES(:namadepan, :namabelakang, :email, :password, :lahir)
-			WHERE id_user = :id";
+	$sql = 'UPDATE user SET(nama_depan, nama_belakang, email, password, tgl_lahir)
+					VALUES(:namadepan, :namabelakang, :email, :password, :lahir)
+					WHERE id_user = :id';
 
 	$user = connect()->prepare($sql);
 
@@ -69,5 +69,4 @@ function updateUser($id)
 	 	die($e->getMessage());
 	}
 }
-
- ?>
+?>

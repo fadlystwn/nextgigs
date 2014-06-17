@@ -7,7 +7,7 @@
 	<script src="js/preview.js"></script>
 </head>
 <body>
-<?php include ('header.php'); ?>
+<?php require_once 'header.php'; ?>
 	<div class="wrapper container_12">
 	<div class="grid_5">
 		<img id="img_prev" src="image/default.png" alt="your image"/>
@@ -30,7 +30,7 @@
 	</div>
 	</form>
 	</div>
-<?php include('footer.php'); ?>
+<?php require_once 'footer.php'; ?>
 </body>
 </html>
 </body>

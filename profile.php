@@ -1,11 +1,10 @@
 <!DOCTYPE html>		
-<html lang="eng">
+<html lang="en">
 <head>
 <title>	Profile</title>
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/lightbox.js"></script>
 	<script>
-
 		$(document).ready(function()
 		{
 			$('.update').hide();
@@ -16,9 +15,14 @@
 		});	
 	</script>
 	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 <body>
-<?php include ('header.php');?>
+<?php require_once 'header.php'; ?>
 	<div class="wrapper container_12">
 		<div class="profile grid_12">
 			<img class="profile-pic grid_2" src="images/default.jpg"  alt="foto-profile">
