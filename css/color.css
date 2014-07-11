@@ -6,11 +6,11 @@ header, footer{
 	background-color: #272822;
 }
 
-form, .imgwrapper, .menu-nav, .about, .event{
+.imgwrapper, .menu-nav, .about{
 	background-color: #DDD;
 }
 
-.daftar, .wrapper, .message, .image-item {
+.daftar, .wrapper, .message, .image-item, .event {
 	background-color: #FFF
 }
 

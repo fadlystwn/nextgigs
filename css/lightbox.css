@@ -2,9 +2,9 @@
 body:after {
   content: 
   url(../images/img/close.png)
-  url(../images/limg/loading.gif) 
+  url(../images/img/loading.gif) 
   url(../images/img//prev.png) 
-  url(../images/img/next.png);
+  url(../../images/img/next.png);
   display: none;
 }
 

@@ -1,8 +1,14 @@
+<?php 
+if (!isset($_SESSION['id_user'])) {
+	header('location: ../nextgigs');
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>pesan</title>
 </head>
+</style>
 <body>
 <?php include ('header.php'); ?>
 	<div class="wrapper container_12">
@@ -10,7 +16,7 @@
 			<img src="images/default.jpg" width="50">
 			<p>John Lennon</p>
 		</div>
-		<div class=" message grid_8">
+		<div class="message grid_8">
 		</div>
 	</div>
 <?php  include ('footer.php');?>

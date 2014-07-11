@@ -1,9 +1,14 @@
+<?php 
+if (!isset($_SESSION['id_user'])) {
+	header('location: ../nextgigs');
+}
+ ?>
 <!DOCTYPE html>		
 <html lang="en">
 <head>
 <title>	Profile</title>
-	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/lightbox.js"></script>
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	<script src="../js/lightbox.js"></script>
 	<script>
 		$(document).ready(function()
 		{
@@ -14,7 +19,7 @@
 			});
 		});	
 	</script>
-	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="../css/lightbox.css">
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -50,14 +55,14 @@
 		</nav>	
 		<div class="gallery image-row container_12">
 			<div class="image-set">
-				<a class="example-image-link" href="images/222.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-					<div class="image-item grid_4"><img class="example-image" src="images/222.jpg" alt="drummer"/></div>
+				<a class="example-image-link" href="../images/222.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+					<div class="image-item grid_4"><img class="example-image" src="../images/222.jpg" alt="drummer"/></div>
 				</a>
-				<a class="example-image-link" href="images/333.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-					<div class="image-item grid_4"><img class="example-image" src="images/333.jpg" alt="drummer"/></div>
+				<a class="example-image-link" href="../images/333.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+					<div class="image-item grid_4"><img class="example-image" src="../images/333.jpg" alt="drummer"/></div>
 				</a>
-				<a class="example-image-link" href="images/555.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-					<div class="image-item grid_4"><img class="example-image" src="images/555.jpg" alt="drummer"/></div>
+				<a class="example-image-link" href="../images/555.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
+					<div class="image-item grid_4"><img class="example-image" src="../images/555.jpg" alt="drummer"/></div>
 				</a>	
 			</div>
 		</div>

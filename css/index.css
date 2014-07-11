@@ -1,6 +1,7 @@
 /*style for index nextgigs.com C FADLYSETIAWAN 2014*/
-body{
-	background-image: url(../image/bg.jpg);
+body
+{
+	background-image: url(../images/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Oswald', sans-serif;
@@ -24,7 +25,8 @@ h1,h2{
 	right: 50px;
 	border-radius: 10px;
 	background-color: #0F100D;
-	opacity: 0.6;
+	opacity: 0.8;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
 	z-index: -999;
 }
 

@@ -12,7 +12,7 @@
 <body>
 <div class="wrapper container_12">
 <div class= "push_1 grid_10">
-    <form method="post" action="?user&create">
+    <form method="post" action="createuser">
         <label for="namadepan">Nama Depan</label>
         <input type="text" name="namadepan" required><br>
         <label for="namabelakang">Nama belakang</label>   

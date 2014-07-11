@@ -7,8 +7,8 @@ var reader = new FileReader();
 reader.onload = function (e) {
 $('#img_prev')
 .attr('src', e.target.result)
-.width(360)
-.height(400)
+.width(280)
+.height(350)
 };
 
 reader.readAsDataURL(input.files[0]);
