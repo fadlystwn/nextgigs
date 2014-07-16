@@ -1,5 +1,5 @@
 <?php
 session_start();
  
-var_dump($_SESSION['id_user']) 
+var_dump($_SESSION['nama_depan']); 
 ?>

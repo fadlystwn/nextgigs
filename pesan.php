@@ -11,10 +11,10 @@ if (!isset($_SESSION['id_user'])) {
 </style>
 <body>
 <?php include ('header.php'); ?>
-	<div class="wrapper container_12">
+	<div class=" container_12">
 		<div class="message grid_4">
-			<img src="images/default.jpg" width="50">
-			<p>John Lennon</p>
+		<img src="images/default.jpg" width="50">
+		<p>John Lennon</p>
 		</div>
 		<div class="message grid_8">
 		</div>

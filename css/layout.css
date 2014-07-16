@@ -1,45 +1,108 @@
-
-.event, .message, .menu-nav, .profile, .profile-pic, .about p {
+.about p, .event img,.update-event, .update-event img, .event-details, .edit-profile,  
+.friends, .home-title, .logout, .message, .more-info, .profile, 
+.profile-pic {
 	margin: 10px;
 }
 
-.wrapper, .daftar, .message, .profile-pic {
-	border-radius: 3px;
-	box-shadow: 1px 1px 3px #000;
-}
-
-.event {	
-	box-shadow: 1px 1px 3px #000;
-}
-
-.event img{
-	margin: 10px;
-}
-
-.example-image{
-	height: 200px;
-	width: 280px;	
-	
+.wrapper, .daftar, .profile-pic, .event, .update-event{	
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+	margin-bottom: 10px;
 }
 
 .profile-pic {
-	width: 130px;
-}
+	height: 145px;
 
-.profile h3 + .about p{
-	margin: 0;
-	padding: 0;
 }
 
 .about p{
-	text-indent: 20px;
-	text-align: center;	
+	text-indent: 20px; 
+	text-align: center;
+	font-size: 1,5em;
+	margin: 10px;
 }
 
-.about{
+.button{
 	border-radius: 3px;
 }
 
 .button{
-	padding: 5px;
+	border-style: none;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+
+.tittle, .event img{
+	float: left;	
+}
+
+.friends{
+	height: 100px;
+}
+
+.logout, .edit-profile, .social{
+	float: right;
+}
+
+.logout, a{
+	text-decoration: none;
+}
+
+.event{
+	height: 200px;
+}
+
+.event-details{
+	width: 360px;
+	height: 480px;
+}
+
+
+.event img{
+	width: 200px;
+	height: 130px;
+}
+
+.imgwrapper {
+	margin-top: 10px;
+}
+.imgwrapper img {
+	margin: 10px;
+}
+.home-pic{
+	
+	height: 60px;
+} 
+
+.reset{
+	padding: 0;
+	margin: 0;
+}
+
+.home-title{
+	margin-bottom: 20px;
+}
+
+.home-title p{
+	text-align: center;
+	margin: 3px;
+}
+.home-container{
+	padding-bottom: 15px;
+
+}
+
+.horizontalrule{
+	min-height: 1px;
+  clear:both; width:100%;
+  border-bottom:1px solid #d1d1d1;
+  height:1px; padding-top:5px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.name{
+	margin: 0;
+	font-weight: bold;
 }

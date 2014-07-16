@@ -1,36 +1,33 @@
 body{
-	background-color: #D3D3D3;
+	background: #e9e8e4 url('img/bg-grid.png');
 }
 
 header, footer{
 	background-color: #272822;
 }
 
-.imgwrapper, .menu-nav, .about{
-	background-color: #DDD;
+.comment, .more-info, .imgwrapper, .menu-nav, .about{
+	background-color: #EEE;
 }
 
-.daftar, .wrapper, .message, .image-item, .event {
-	background-color: #FFF
+.daftar, .wrapper, .message, .image-item, .update-event, 
+.event-details, .friends{
+	background-color: #FFF;
 }
 
 
-footer, .button {
+h4, header a, .home-title, footer, .button{
 	color: #FFF;
 }	
 
-.button {
+.button, .home-title {
 	background-color: #A90000; 
 }
 
-.menu-nav a{
+header a:hover, .menu-nav a, .name{
 	color: #A90000; 
 }
-
-a{
-	color: #FFF;
-}
-
-.label-container{
-	background-color: red;
+ 
+a:hover{
+	color: #A90000;
 }
